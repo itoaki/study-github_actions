@@ -8,4 +8,5 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2.0.0
       - name: Verify hello action works
+        # action.ymlが存在するディレクトリへの相対パス
         uses: ./
