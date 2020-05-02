@@ -7,15 +7,15 @@ jobs:
       matrix:
         os: [ubuntu-latest, windows-latest, macos-latest]
         node: [10, 12]
-      # windowsで、node10の時は、npmに6を設定する（使ってないけど）
-      include:
-        - os: windows-latest
-          node: 10
-          npm: 6
-      # macosの時は、node10は除外する
-      exclude:
-        - os: macos-latest
-          node: 10
+        # windowsで、node10の時は、npmに6を設定する（使ってないけど）
+        include:
+          - os: windows-latest
+            node: 10
+            npm: 6
+        # macosの時は、node10は除外する
+        exclude:
+          - os: macos-latest
+            node: 10
     runs-on: ${{ matrix.os }}
     steps:
       - name: Checlout
