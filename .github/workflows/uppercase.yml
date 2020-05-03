@@ -1,10 +1,8 @@
 # This is a basic workflow to help you get started with Actions
 name: Uppercase
 
-on:
-  push:
-    branches-ignore:
-      - *
+on: push
+
 jobs:
   prComment:
     runs-on: ubuntu-latest

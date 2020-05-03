@@ -1,8 +1,9 @@
 name: Hello, World!
 on:
   push:
+    # pushした時に起動するんだけど、masterの時は無視する設定
     branches-ignore:
-      - *
+      - master
 jobs:
   build:
     name: Greeting
