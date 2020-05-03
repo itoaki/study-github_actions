@@ -1,6 +1,6 @@
 name: Countenuous Integration
 on: push
- jobs:
+jobs:
   unit-test:
     name: Unit Test
     strategy:

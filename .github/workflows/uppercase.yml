@@ -1,8 +1,11 @@
 # This is a basic workflow to help you get started with Actions
 name: Uppercase
 
-on: push
-
+on:
+  push:
+    # pushした時に起動するんだけど、masterの時は無視する設定
+    branches-ignore:
+      - master
 jobs:
   prComment:
     runs-on: ubuntu-latest
