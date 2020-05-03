@@ -11,3 +11,5 @@ jobs:
         uses: itoaki/action-uppercase@v1.0.0
         with:
           text: Hello, World! will may be uppercase!!
+      - name: Print converted text
+        run: echo "${{ steps.uppercase.outputs.uppercase-text }}"

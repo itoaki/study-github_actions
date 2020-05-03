@@ -4,8 +4,10 @@
 ![Countenuous Integration](https://github.com/itoaki/study-github_actions/workflows/Countenuous%20Integration/badge.svg)
 ![Test](https://github.com/itoaki/study-github_actions/workflows/Test/badge.svg)
 ![PR Comment](https://github.com/itoaki/study-github_actions/workflows/PR%20Comment/badge.svg)
+![Uppercase](https://github.com/itoaki/study-github_actions/workflows/Uppercase/badge.svg)
 
 Github Actionsの勉強リポジトリです。
+自分で作成したActionのplaygroundとしても利用します。
 
 # 設定してあるAction
 
