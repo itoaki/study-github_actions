@@ -7,7 +7,7 @@ jobs:
   prComment:
     runs-on: ubuntu-latest
     steps:
-      - name: Uppercase
+      - id: uppercase
         uses: itoaki/action-uppercase@v1.0.0
         with:
           text: Hello, World! will may be uppercase!!
