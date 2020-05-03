@@ -15,10 +15,16 @@ master以外にpushされた時に、`echo "Hello, World"`を表示します。
 毎年、1月1日の9時に`npm audit`を実行します。(cron)
 
 ## ci.yml
-pushされた時に、mochaによるテスト実行とeslintによるチェックを実行する。
+pushされた時に、mochaによるテスト実行とeslintによるチェックを実行します。
 
 ## test.yml
 外向けに作成したaction.ymlを内部でも使用するテスト
+
+## prcomment.yml
+自分で作成したtypescriptのgithub actionsを実行します。
+PRを作成すると、「Nice PR :good:」というコメントが自動で追加されます。
+actionのリポジトリは以下。
+https://github.com/itoaki/action-pr_comment
 
 ## (root)action.yml
 他のリポジトリから使用するためのactions定義   
