@@ -1,0 +1,16 @@
+# This is a basic workflow to help you get started with Actions
+name: Proof Reading
+
+# push、もしくはプルリクエスト作成でトリガーされる
+on: [push, pull_request]
+
+jobs:
+  prComment:
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    steps:
+      - name: PR Comment test
+        uses: itoaki/action-pr_comment@v1.0.0
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          message: Nice PR!👍
