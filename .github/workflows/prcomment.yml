@@ -2,7 +2,7 @@
 name: PR Comment
 
 # push、もしくはプルリクエスト作成でトリガーされる
-on: [push, pull_request]
+on: pull_request
 
 jobs:
   prComment:

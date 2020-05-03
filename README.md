@@ -27,6 +27,12 @@ PRを作成すると、「Nice PR :good:」というコメントが自動で追�
 actionのリポジトリは以下。
 https://github.com/itoaki/action-pr_comment
 
+## uppercase.yml
+自分で作成したdockerコンテナのgithub actionsを実行します。
+steps.with.textで渡した文字列が、全て大文字になって返却されます。
+actionのリポジトリは以下。
+https://github.com/itoaki/action-uppercase
+
 ## (root)action.yml
 他のリポジトリから使用するためのactions定義   
 index2.jsを実行する。（中身はHello world）   

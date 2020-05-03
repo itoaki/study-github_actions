@@ -1,5 +1,8 @@
 name: Countenuous Integration
-on: push
+on:
+  push:
+    branches-ignore:
+      - master
 jobs:
   unit-test:
     name: Unit Test
