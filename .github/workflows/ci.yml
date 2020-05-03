@@ -1,5 +1,9 @@
 name: Countenuous Integration
-on: push
+on:
+  push:
+    # pushした時に起動するんだけど、masterの時は無視する設定
+    branches-ignore:
+      - master
 jobs:
   unit-test:
     name: Unit Test
