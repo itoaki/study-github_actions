@@ -1,5 +1,5 @@
 # This is a basic workflow to help you get started with Actions
-name: Proof Reading
+name: PR Comment
 
 # push、もしくはプルリクエスト作成でトリガーされる
 on: [push, pull_request]
