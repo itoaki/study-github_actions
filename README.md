@@ -21,11 +21,13 @@ pushされた時に、mochaによるテスト実行とeslintによるチェッ�
 外向けに作成したaction.ymlを内部でも使用するテスト
 
 ## (root)action.yml
-他のリポジトリから使用するためのactions定義
-index2.jsを実行する。（中身はHello world）
+他のリポジトリから使用するためのactions定義   
+index2.jsを実行する。（中身はHello world）   
 
-使用したいときは、ymlファイルに下記のように設定する。
+使用したいときは、ymlファイルに下記のように設定する。   
+
 '''
+
 jobs:
   hello:
     # ジョブ名
@@ -35,4 +37,5 @@ jobs:
     steps:
       - name: hello
         uses: itoaki/study-github_actions@v1.0.0
+
 '''
