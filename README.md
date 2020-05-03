@@ -26,7 +26,7 @@ index2.jsを実行する。（中身はHello world）
 
 使用したいときは、ymlファイルに下記のように設定する。   
 
-'''
+```
 
 jobs:
   hello:
@@ -38,4 +38,4 @@ jobs:
       - name: hello
         uses: itoaki/study-github_actions@v1.0.0
 
-'''
+```
